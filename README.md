@@ -21,14 +21,14 @@ This repository was brought to you by:
 ### APS Scientific Report (Double Column)
 Based on the official **revtex4-2** class used by the American Physical Society (which can be found in Overleaf templates). Includes BibTeX integration.
 <p align="center">
-  <img src=".screenshots/single_col.png" width="400">
+  <img src=".screenshots/double_col.png" width="400">
 </p>
 
 
 ### APS Scientific Report (Single Column)
 Same template as the double-column counterpart, but tweaked so it only has one.
 <p align="center">
-  <img src=".screenshots/double_col.png" width="400">
+  <img src=".screenshots/single_col.png" width="400">
 </p>
 
 
