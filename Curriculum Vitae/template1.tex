@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{hyperref}
+
+
+% --- Formatting ---
+\pagestyle{empty} % Remove page numbers
+\setlist[itemize]{leftmargin=1.5em, nosep, label=\textbullet, after=\vspace{5pt}}
+
+% Section Header Style: Bold, Uppercase, with a bottom rule
+\titleformat{\section}{\bfseries\large\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+% Custom command for entry with date on the right
+\newcommand{\entry}[4]{
+  \noindent \textbf{#1} \hfill #2 \vspace{-3pt}\\
+  \textit{#3} \hfill \textit{#4} \par
+  \vspace{4pt}
+}
+
+\newcommand{\entryy}[4]{
+  \noindent \textbf{#1} \hfill #2 \vspace{-1pt}\\
+  \textit{#3} \hfill \textit{#4} \par
+  \vspace{4pt}
+}
+
+% --- Document Start ---
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{Lorem Ipsum Dolor}} \\
+    \vspace{4pt}
+    +00 000 000 000 $\diamond$ \href{mailto:lorem@ipsum.com}{Email} $\diamond$ \href{https://linkedin.com/in/loremipsum}{Linkedin} $\diamond$ \href{https://github.com/loremipsum}{GitHub}
+\end{center}
+
+
+% *******************************************
+\section{Education \hfill Work experience}
+% *******************************************
+% Added Work experience on the right due to lack of space. For better overall coherence and if space allows, remove "hfill" and add "Work Experience" as a new section below.
+\entry{Degree in Lorem Ipsum}{Month 20XX -- Present}{University Name, Location}{Company Name, Job Title -- 20XX}
+
+\entry{Secondary Educational Certification}{20XX -- 20XX}{Institution Name, Honors received}{Company Name, Job Title -- 20XX}
+
+\entry{Additional Diploma / Certificate}{20XX -- 20XX}{Description of studies}{Freelance / Other Experience -- 20XX}
+
+
+% ***************
+\section{Skills}
+% ***************
+\textbf{Technical Skills:} Tool A, Tool B, Tool C, Tool D, Tool E\\
+\textbf{Other Proficiencies:} Skill Category 1, Skill Category 2\\
+\textbf{Laboratory/Practical:} Description of specific technical or hands-on experience.\\
+\textbf{Languages:} Language A (\textit{Native}), Language B (\textit{Fluent}), Language C (\textit{Intermediate})
+
+
+% ***************
+\section{Projects}
+% ***************
+\entryy{Project Title One}{Month 20XX -- Month 20XX}{Organization / Laboratory Name}{Role or Thesis Type}
+\vspace{-5pt} {\small Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Certification of results and transmission of data across simulated environments.}
+
+
+\vspace{6pt}
+\entryy{Project Title Two}{Month 20XX -- Month 20XX}{Award or Recognition Received}{\href{https://github.com/loremipsum}{Project Repository}}
+\vspace{-5pt} {\small Developed a system that reduces complexity using platform X. Implemented signal processing and machine learning models to enable reliable monitoring and classification of data points. Evaluated performance metrics in real-world scenarios.}
+
+
+% ***********************************
+\section{Extracurricular Activities}
+% ***********************************
+\textbf{Event or Competition Name} \hfill Oct 20XX \vspace{-3pt} \\
+\small{Description of the task performed, the technology used, and the final outcome of the activity.} \vspace{6pt}\\
+\normalsize{\textbf{International Symposium or Conference} \hfill Jun 20XX} \vspace{-3pt}\\
+\small{Description of responsibilities, such as aiding in organization or presenting specific research.} \vspace{6pt}\\ 
+\normalsize{\textbf{Certified Course Name}} \hfill Jul 20XX \vspace{-3pt}\\ 
+\textbf{Subtitle for Course} (\textit{Issuing Organization}) \vspace{6pt}\\
+\textbf{Hackathon or Workshop Name} \hfill Oct 20XX \vspace{-3pt}\\
+\small{Description of the project built, the problem solved, and any corporate partners involved.} \vspace{6pt}\\
+\normalsize{\textbf{Professional Internship Program} \hfill 20XX--20XX} \vspace{-3pt}\\
+\small{Sponsoring Foundation or Institution} \vspace{6pt}\\
+\normalsize{\textbf{Mentorship or Talent Program} \hfill 20XX--20XX} \vspace{-3pt}\\
+\small{Issuing Foundation or Organization}
+
+
+% ********************************
+\section{Certificates \& Awards}
+% ********************************
+\entry{Award Title -- Rank/Place}{\textbf{Language Certificate (Level)}}{Name of Competition or Organization}{Issuing University or Body}
+\entry{Award Title -- Rank/Place}{\textbf{Professional Membership or License}}{Event Name or Organization}{National Federation or Board Name}
+
+\end{document}
