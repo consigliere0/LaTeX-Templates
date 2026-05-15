@@ -1,7 +1,7 @@
 # LaTeX Templates Collection
 
-A collection of curated LaTeX templates. We'll keep adding more; if you have any suggestions, please send an email to: EMAIL.  
-This repository was brought to you by:
+A collection of curated LaTeX templates. We'll keep adding more; if you have any suggestions, please send an email to: lauragv2005@gmail.com  
+This repository was brought to you by: Joan Salazar & Laura González.
 
 ## How to use
 Ideally, you will need to have *git* installed. If you don't have it, we advise you to look into it, as it will be useful in your career. If you are too stubborn and/or scared of the terminal, simply copy and paste each code to your computer...this is a judgement-free space.
