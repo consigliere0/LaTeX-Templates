@@ -1,3 +1,4 @@
+*(Ongoing repository)*
 # LaTeX Templates Collection
 A collection of curated LaTeX templates. We'll keep adding more; if you have any suggestions, please send an email to: lauragv2005@gmail.com.
 
